@@ -45,8 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrefab:
-    m_AssetGUID: f4097da5b42bb2e4b94aed85eccfb3ec
+    m_AssetGUID: 5db6e863dfd707c458101bd00c357d25
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
-  menu: {fileID: 7411451100612200963, guid: f4097da5b42bb2e4b94aed85eccfb3ec, type: 3}
+  onPlayEvent: {fileID: 11400000, guid: 19ab37bb218e4a04aa7bbb38e3552722, type: 2}

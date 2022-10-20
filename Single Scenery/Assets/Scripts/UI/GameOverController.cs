@@ -2,9 +2,8 @@ using UnityEngine;
 
 namespace SingleScenery
 {
-    public class MenuController : UIController
+    public class GameOverController : UIController
     {
-
         [SerializeField] private GameEvent onPlayEvent;
 
         private void OnEnable()
@@ -16,6 +15,5 @@ namespace SingleScenery
         {
             onPlayEvent.RemoveListener(Hide);
         }
-        
     }
 }

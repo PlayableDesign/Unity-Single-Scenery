@@ -17,20 +17,32 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: bac4de859d937444f883f99ebd5cebe4
   m_SerializeEntries:
-  - m_GUID: 87ea3292ad4f66e4a9565d478ca56244
-    m_Address: LoadingCanvas
-    m_ReadOnly: 0
-    m_SerializedLabels: []
   - m_GUID: f1d20efd2699e8f419fa0d53e44c2c17
     m_Address: LoadingController
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: f4097da5b42bb2e4b94aed85eccfb3ec
+  - m_GUID: 8351f7dd270e6ad42b953c1ff7716080
+    m_Address: MenuController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 84218b829e90bc0409e6ebaf12bda863
+    m_Address: GameOverCanvas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b697e78150a1fd4584bce0067a920f2
+    m_Address: LoadingCanvas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5db6e863dfd707c458101bd00c357d25
     m_Address: MenuCanvas
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 8351f7dd270e6ad42b953c1ff7716080
-    m_Address: MenuController
+  - m_GUID: 25583f56e6684db43a7566ae62234955
+    m_Address: GameOverController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9853e53c2e114a64c8f8b62334ceb854
+    m_Address: UIManager
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

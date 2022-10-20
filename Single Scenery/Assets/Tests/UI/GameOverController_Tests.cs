@@ -8,15 +8,15 @@ using UnityEngine.UI;
 
 namespace SingleScenery
 {
-    public class MenuController_Tests
+    public class GameOverController_Tests
     {
         // Test Settings
 
-        const string ADDRESS = "MenuController";
+        const string ADDRESS = "GameOverController";
         const float DELAY = 3f;
 
         WaitForSeconds delay;
-        MenuController controller;
+        GameOverController controller;
         bool _setup;
 
         bool _playClicked;
@@ -43,7 +43,7 @@ namespace SingleScenery
             Assert.That(handle.Status == AsyncOperationStatus.Succeeded);
             Assert.IsNotNull(handle.Result);
 
-            controller = handle.Result.GetComponent<MenuController>();
+            controller = handle.Result.GetComponent<GameOverController>();
 
             Assert.IsFalse(controller.Ready);
 
@@ -134,5 +134,6 @@ namespace SingleScenery
     }
 
 }
+
 
 
